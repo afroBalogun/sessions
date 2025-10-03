@@ -6,7 +6,7 @@ import Consultants from "./Consultants";
 export default function Page() {
  
     return (
-        <main className=" mx-auto p-5 md:p-10 text-primary flex flex-col gap-10">
+        <main className=" mx-auto p-5 md:p-10 text-primary flex flex-col gap-10 ">
             <h2 className="text-3xl font-bold sm:text-4xl lg:text-6xl font-suse">
                 Join a session
             </h2>

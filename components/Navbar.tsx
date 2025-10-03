@@ -28,7 +28,7 @@ export default function Navbar() {
     ));
 
     return (
-        <nav className="relative w-full flex items-center justify-between p-5 md:px-10 py-5 text-primary bg-prima">
+        <nav className="relative w-full flex items-center justify-between p-5 md:px-10 py-5 text-primary">
             <div className="relative w-full md:w-max flex items-center justify-between z-[10000]">
                 <a href="/" className="flex items-center gap-2">
                     <h2 className="font-suse text-2xl font-bold">

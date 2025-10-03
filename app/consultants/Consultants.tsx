@@ -1,4 +1,5 @@
 import { consultants } from "@/data/Mockdata";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 export default function Consultants() {
@@ -44,7 +45,9 @@ export default function Consultants() {
                 </p>
             </div>
             <button className="bg-primary text-white px-4 py-2 lg:py-4 rounded-lg hover:cursor-pointer hover:bg-neutral-900 duration-200 transition-all">
-                View Details
+                <Link href={`/consultants/${consultant.id}`}>
+                    View Details
+                </Link>
             </button>
         </article>
     ));

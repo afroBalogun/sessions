@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${suse.variable} ${sirinStencil.variable}  antialiased bg-secondary`}
+        className={`${suse.variable} ${sirinStencil.variable}  antialiased bg-secondary max-w-[1660px] mx-auto`}
       >
         <Navbar/>
         {children}
